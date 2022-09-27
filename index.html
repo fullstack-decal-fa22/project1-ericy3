@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="author" countent="Eric Yang">
+        <meta name="description"content="Personal Website">
+        <title> Eric Yang's In Progress Personal Website </title>
+    </head>
+    <body>
+        <div id="namecontainer">
+            <img src="Hualien.jpg" alt="name background" id="nameimage">
+            <h1 id="nameplace">Eric Yang</h1>
+        </div>
+
+        <br>
+
+        <!--many CSS properties seem to not be able to affect this class and its subclasses-->
+        <div class="aboutme">
+            <div class="medesciption">
+                <h3>Student studying Computer Science at Berkeley.</h3>
+                <h4> Hey, I'm Eric. I'm interested in software development 
+                but also anything that can enhance understanding and usage of computers. 
+                I have experience with Java and Python and am currently 
+                learning HTML, CSS, and Javascript. </h4>
+            </div>
+            <div class="melinks">
+                <h6>Find Me On:</h6>
+                    <h5><a target="_blank" href="https://www.linkedin.com/in/eric-yang-004bb8240/">Linkedin</a></h5>
+                    <h5><a target="_blank" href="ey3@berkeley.edu">ey3@berkeley.edu</a></h5>
+                    <h5><a target="_blank" href="https://github.com/ericy3"> Github </a></h5>
+            </div>
+        </div>
+        
+        <h2>My Projects:</h2>
+        <div class="grid-container">
+            <div class="grid-pic1">
+                <img src="Version-Control.jpg" alt="version control" class="proj-pic">
+            </div>
+            <div class="grid-text1">
+                <h4>Lightweight Version Control System - Java</h4>
+                <p>This project was a lightweight version of Git. I implemented git commands
+                    such as add, commit, merge, and checkout.
+                </p>
+            </div>
+            <div class="grid-pic2">
+                <img src="Ataxx.jpg" alt="Ataxx logo" class="proj-pic">
+            </div>
+            <div class="grid-text2">
+                <h4> Ataxx - Java</h4>
+                <p>Based upon arcade classic "Ataxx," I developed the game's original
+                functionality and logic as well as an AI opponent created using minimax algorithm.
+                Utilized Java's Graphics class for interactive user interface with adjustable settings.   
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <button onclick="location.href='https://youtu.be/dQw4w9WgXcQ'" target="_blank">
+            Click me.
+        </button>
+
+        <br>
+        <br>
+        <form>
+            <label for="your name">Please enter your name below.</label> 
+            <br>
+            <br>
+            Your Name: <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <input type="submit" onclick="amogus()"></input>
+            <br>
+            <br>
+        </form>
+
+        <script>
+            function amogus() {
+                alert("1/10 name.");
+            }
+        </script>
+
+    </body>
+    </html>
